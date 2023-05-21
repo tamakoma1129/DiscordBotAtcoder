@@ -20,7 +20,9 @@ Botの内容は、登録したDiscordサーバーに次のAtCoderのコンテス
 以上のことから、Pythonのコードを編集できる環境が必要です。
 
 ここから先はその方法と詳細を説明しています。  
-まず、get_info.py,pro_info.py,discordbot.pyをエディタか何かで開き、編集できる状態にしてください。
+まず、get_info.py,pro_info.py,discordbot.pyをエディタか何かで開き、編集できる状態にしてください。  
+
+次に、bot_file内に空のinfo_saveファイルを作成してください。
 ### get_info.py
 - get_info.pyではAtCoderのホームページからコンテスト情報が入ったhtmlを取得し、指定した場所にhtmlを保存するという動作をしています。
 - パス変数を自分の環境に合わせ変更してください。
